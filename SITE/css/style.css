@@ -7,16 +7,21 @@ body {
 
 header {
     background-color: rgb(255, 255, 255);
-    width: auto;
+    width: 100vw;
 }
 
 .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-2 {
     color: #4082E4;
     display: flex;
-    justify-content: space-between;
-    justify-content: space-around;
-    align-items: center;
-
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 15px;
 }
 
 .container ul {
@@ -26,13 +31,12 @@ header {
     width: 600px;
     justify-content: space-evenly;
     list-style: none;
-
+    font-size: 22px;
 }
 
-#logo {
+.logo {
     width: 100px;
-    height: auto;
-
+    height: 100px;
 }
 
 .container ul a {
@@ -42,7 +46,7 @@ header {
 
 .agora {
     border-bottom: 1px solid #4082E4;
-    padding: 0 0 2px 0;
+    padding: 0 0 1px 0;
 }
 
 /* BANNER */
@@ -51,30 +55,20 @@ header {
     background-image: url("../img/banner.png");
     height: 500px;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.banner .container {
-    height: 500px;
-    align-items: center;
-}
-
-.banner .container p {
+.banner .container-2 p {
     color: white;
-    margin:  0;
-    padding: 0;
-    font-size: 36px;
-    width: 350px;
-    margin-left: 900px;
+    font-size: 55px;
+    width: 300px;
 
     font-family: 'Saira';
     font-style: normal;
     font-weight: 400;
-    font-size: 60px;
-
-
+    font-size: 50px;
     color: #FFFFFF;
-
-
 }
 
 .banner span {
@@ -82,13 +76,27 @@ header {
 
 }
 
-.banner .container button {
 
+.banner .container-2 .botao {
+    color: #4082E4;
+    background: transparent;
+    border: none;
+    font-size: 25px;
+    margin-right: 14.5vh;
+    margin-top: 5vh;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.banner {
+    width: 100%;
+    height: 700px;
 }
 
 .continuacao {
     background-color: rgb(255, 255, 255);
-    width: auto;
+    width: 100vw;
+    margin-left: 37vw;
 }
 
 
