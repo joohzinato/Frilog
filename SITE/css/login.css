@@ -102,7 +102,7 @@ header {
     padding: 10px 15px;
     cursor: pointer;
     background-color: #FDFDFD;
-    box-shadow: 0px 0px 10px #0C567D, 0px 0px 10px #4CBEFB;
+    box-shadow:  0px 0px 0px #0C567D, 0px 0px 10px #4CBEFB;
     border-radius: 5px;
 }
 
