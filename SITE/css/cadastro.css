@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Saira', sans-serif;
+    
+}
+
+/* HEADER */
+
+header {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    border-bottom: 4px solid #4082E4;
+    border-right: 4px solid #4082E4;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius:10px ;
+    margin-bottom: 30px; 
+
+}
+.cabecalho{
+    display: flex;
+    justify-content: center;
+}
+
+.container-2 {
+    color: #4082E4;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 15px;
+}
+
+.container ul {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    width: 600px;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 22px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.container ul a {
+    text-decoration: none;
+    color: #4082E4;
+}
+
+.agora {
+    border-bottom: 1px solid #4082E4;
+    padding: 0 0 1px 0;
+}
+
+/* LOGIN */
+
+.containerLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.card{
+    background-color: rgb(255, 255, 255);
+    height: 420px;
+    width: 450px;
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 0px 0px 15px #4CBEFB, 5px 5px 15px #0C567D;
+    border-radius: 50px;
+
+
+
+}
+
+
+.btn {
+    font-family: monospace;
+    margin-top: 30px;
+    border: 0;
+    font-weight: 600;
+    color: black;
+    font-size: 18px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #FDFDFD;
+    box-shadow:  0px 0px 0px #0C567D, 0px 0px 10px #4CBEFB;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: rgba(0, 217, 255, 0.164);
+
+
+}
+
+.ipt {
+    height: 30px;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #706f6f;
+    border-radius: 4px;
+    
+}
+
+.titulo {
+    margin-right: 160px;
+    margin-bottom: 5px;
+
+}
