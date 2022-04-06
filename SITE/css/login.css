@@ -23,7 +23,7 @@ header {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-top-right-radius:10px ;
-    margin-bottom: 10px; 
+    margin-bottom: 30px; 
 
 }
 .cabecalho{
@@ -73,9 +73,6 @@ header {
     flex-direction: column;
 }
 
-.containerLogin #login {
-    margin-top: 40px;
-}
 
 .card{
     background-color: rgb(255, 255, 255);
@@ -87,7 +84,7 @@ header {
     justify-content: center;
     margin: auto;
     margin-top: 10px;
-    box-shadow: -5px -5px 15px #4CBEFB, 5px 5px 15px #0C567D;
+    box-shadow: 0px 0px 15px #4CBEFB, 5px 5px 15px #0C567D;
     border-radius: 50px;
 
 
@@ -105,7 +102,7 @@ header {
     padding: 10px 15px;
     cursor: pointer;
     background-color: #FDFDFD;
-    box-shadow: 5px 5px 10px #0C567D, -5px -5px 10px #4CBEFB;
+    box-shadow: 0px 0px 10px #0C567D, 0px 0px 10px #4CBEFB;
     border-radius: 5px;
 }
 
