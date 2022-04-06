@@ -63,3 +63,70 @@ header {
     border-bottom: 1px solid #4082E4;
     padding: 0 0 1px 0;
 }
+
+/* LOGIN */
+
+.containerLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerLogin #login {
+    margin-top: 40px;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    height: 340px;
+    width: 450px;
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: -5px -5px 15px #4CBEFB, 5px 5px 15px #0C567D;
+    border-radius: 50px;
+
+
+
+}
+
+
+.btn {
+    font-family: monospace;
+    margin-top: 30px;
+    border: 0;
+    font-weight: 600;
+    color: black;
+    font-size: 18px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #FDFDFD;
+    box-shadow: 5px 5px 10px #0C567D, -5px -5px 10px #4CBEFB;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: rgba(0, 217, 255, 0.164);
+
+
+}
+
+.ipt {
+    height: 30px;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #706f6f;
+    border-radius: 4px;
+    
+}
+
+.titulo {
+    margin-right: 160px;
+    margin-bottom: 5px;
+
+}
